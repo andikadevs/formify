@@ -2,16 +2,17 @@
 
 # **Laravel - Forms API**
 
-API Services for [Formify](https://github.com/Andikss/forms)
+API service for [Formify](../frontend)
 
 ## API Setup
 
 First of all, copy the *.env.example* file and rename it to *.env*
 
-Then, update the composer
+Then, install the dependencies
 
 ```bash
-composer update
+composer install
+php artisan key:generate
 ```
 
 Migrate the database and seed default user
@@ -34,8 +35,8 @@ Well, that's it! The API services is running 😏
 - Sanctum
 
 ## Grid (kisi-kisi)
-[See Grid](public/kisi-kisi.pdf)
+[See Grid](../frontend/public/kisi-kisi.pdf)
 
 ## Developer
 
-[Andika Dwi Saputra](https://andikss.github.io)
+[Andika Dwi Saputra](https://github.com/andikadevs)

@@ -6,9 +6,9 @@ Formify is a web app that's capable for users to create form dynamically accordi
 
 ## Application Setup
 
-First of all, run the api services, [forms-api](https://github.com/Andikss/forms-api)
+First of all, run the API service in [`../backend`](../backend)
 
-Then, open the *.env* file and enter your API Base URL
+Then, copy *.env.example* to *.env* and enter your API Base URL
 
 ```bash
 VITE_API_BASE_URL="https://forms-api.test/api/v1"
@@ -33,4 +33,4 @@ Well, that's it! You can manage your forms now 😏
 
 ## Developer
 
-[Andika Dwi Saputra](https://andikss.github.io)
+[Andika Dwi Saputra](https://github.com/andikadevs)
